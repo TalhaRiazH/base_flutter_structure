@@ -34,7 +34,7 @@ PreferredSizeWidget customAppBar() {
               children: [
                 SvgPicture.asset(AppSvgs.drawer, height: 18.h),
                 Text(
-                  AppStrings.home,
+                  "Home",
                   style: TextStyles.mediumw600(
                     Get.context!,
                   ).copyWith(color: Colors.white, fontSize: 18.sp),
